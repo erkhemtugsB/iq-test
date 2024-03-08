@@ -1,8 +1,11 @@
 import React from 'react'
+import './navbar.css'
 
 const Navbar = () => {
   return (
-    <div>Navbar</div>
+    <div className='nav-container'>
+      <h2 className='logo'>IQ тэст</h2>
+    </div>
   )
 }
 
