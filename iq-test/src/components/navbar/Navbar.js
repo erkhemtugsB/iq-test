@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <div className='nav-container'>
       <Link to='/' className='logo-main'>
-              <h1 to='/'>IQ тэст</h1>
+              <h1 to='/'>Монгол IQ тэст</h1>
       </Link>
       <div className='nav-wrapper'>
         <Link to="/iqtest">
