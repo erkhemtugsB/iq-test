@@ -26,7 +26,8 @@ function Quiz() {
       {!showScore && <QuizProgress currentQuiz={currentQuestion} totalQuizzes={quizData.length} />}
       {showScore ? (
         <div className="score-section">
-          You scored {score} out of {quizData.length}
+          Та {score}/{quizData.length} оноо авлаа.<br></br>
+          <h2>Таны IQ 110</h2>
         </div>
       ) : (
         <>

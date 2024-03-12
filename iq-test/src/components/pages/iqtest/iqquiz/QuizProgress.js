@@ -1,9 +1,10 @@
 import React from 'react';
+import './quiz.css'
 
 function QuizProgress({ currentQuiz, totalQuizzes }) {
   return (
     <div className="quiz-progress">
-      <p>Quiz {currentQuiz + 1} of {totalQuizzes}</p>
+      <p>Тэст {currentQuiz + 1}/{totalQuizzes}</p>
     </div>
   );
 }
