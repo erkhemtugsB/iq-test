@@ -1,0 +1,16 @@
+.options {
+    display: flex;
+    justify-content: center;
+}
+.options button {
+    padding: 15px 40px;
+    background-color: rgb(65, 243, 41);
+    border: 0;
+    margin-right: 20px;
+    border-radius: 10px;
+    font-size: large;
+    cursor: pointer;
+}
+.options button:hover {
+    background-color: rgb(77, 192, 62);
+}
